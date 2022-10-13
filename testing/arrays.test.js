@@ -55,7 +55,7 @@ describe('Given length function', () => {
         try {
             mylength(array)
         } catch (e) {
-            expect(e.message).toBe("Error is not a parameter")
+            expect(e.message).toBe("Error")
         }
     });
 

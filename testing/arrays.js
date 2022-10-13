@@ -17,7 +17,7 @@ export const myPop = (array) => {
 };
 export function mylength(array) {
     if (!Array.isArray(array)) {
-        throw new Error('Error is not a parameter ');
+        throw new Error('Error');
     }
     return array.length;
 };
