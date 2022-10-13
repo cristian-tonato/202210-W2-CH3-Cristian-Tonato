@@ -14,7 +14,7 @@ describe('Given the function myPush', () => {
         expect(results).toBe(expectedResult);
     });
 
-    test('When no array is given it should return error ', () => {
+    test('When no array2 is given it should return error ', () => {
         const arr2=undefined;
         try {
             myPush(arr2)
