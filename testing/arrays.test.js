@@ -1,4 +1,4 @@
-import { myLength} from './arrays.js';
+import { myPop} from './arrays.js';
 import { myPush } from './arrays.js';
 
 

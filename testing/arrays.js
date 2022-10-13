@@ -1,10 +1,7 @@
-export const myLength=(arr)=>{
-    const result = 0;
-    for (const value of arr) {
-        result++
-    }
-    return result
-};
+export function myPop(arr, value) {
+    arr[arr.length - 1] = value;
+    return arr;
+}
 
 export const myPush = (arr, value) => {
     const length = myLength(arr);
@@ -12,4 +9,3 @@ export const myPush = (arr, value) => {
 
     return arr;
 };
-
